@@ -70,7 +70,7 @@ A **user-friendly web platform** was developed to enable early ASD screening usi
 * **Deployment:** Netlify (Frontend)
 
 🔗 **Live Website:**
-👉 [https://autism-care-hub.netlify.app/](https://autism-care-hub.netlify.app/)
+👉 
 
 > ⚠️ Note: This platform is intended for **preliminary screening only** and does not replace professional medical diagnosis.
 
@@ -83,7 +83,6 @@ A **user-friendly web platform** was developed to enable early ASD screening usi
 * Identification of **SVM and Logistic Regression** as strong ML classifiers
 * Demonstration of **Dense and LSTM models** as top-performing DL architectures
 * Development of a **real-world ASD screening web platform**
-* Academic validation through **IEEE publication**
 
 ---
 
