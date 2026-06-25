@@ -70,7 +70,7 @@ A **user-friendly web platform** was developed to enable early ASD screening usi
 * **Deployment:** Netlify (Frontend)
 
 🔗 **Live Website:**
-👉 
+👉 https://autismcares.netlify.app/
 
 > ⚠️ Note: This platform is intended for **preliminary screening only** and does not replace professional medical diagnosis.
 
