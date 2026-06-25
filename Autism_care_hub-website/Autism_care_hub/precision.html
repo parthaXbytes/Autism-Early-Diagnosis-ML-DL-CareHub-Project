@@ -160,8 +160,9 @@ const moreQuestions = [
   })
   .catch(error => {
     loading.classList.add("hidden");
-    console.error('Error submitting all answers:', error);
-    alert("There was an error submitting all answers. Please try again.");
+    console.error('Error submitting all answers to server (using client-side fallback):', error);
+    localStorage.setItem("allAnswers", JSON.stringify(allAnswers)); 
+    window.location.href = "result.html";
   });
 }
   loadQuestion();

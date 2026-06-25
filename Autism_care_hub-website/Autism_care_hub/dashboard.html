@@ -52,7 +52,7 @@
   </div>
 </main>
 <script>
-  const answers = JSON.parse(localStorage.getItem("answers")) || [];
+  const answers = JSON.parse(localStorage.getItem("allAnswers")) || JSON.parse(localStorage.getItem("initial_answers")) || [];
   const score = answers.filter(ans => ans === "yes").length;
   const percentageScore = (score / 40) * 200;
 
