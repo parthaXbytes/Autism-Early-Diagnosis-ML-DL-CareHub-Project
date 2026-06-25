@@ -268,8 +268,9 @@
   })
   .catch(error => {
     loadingDiv.classList.add('hidden');
-    console.error('Error saving initial data:', error);
-    alert("There was an error saving the initial data. Please try again.");
+    console.error('Error saving initial data to server (using client-side fallback):', error);
+    localStorage.setItem("initial_answers", JSON.stringify(selectedAnswers)); 
+    window.location.href = 'result.html'; 
   });
 }
   </script>
